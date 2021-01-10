@@ -1,5 +1,4 @@
 {
-  "name": "Tile_map",
   "spriteId": {
     "name": "spr_map",
     "path": "sprites/spr_map/spr_map.yy",
@@ -125,6 +124,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
+  "name": "Tile_map",
   "tags": [],
   "resourceType": "GMTileSet",
 }
