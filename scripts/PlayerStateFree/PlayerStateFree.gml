@@ -29,4 +29,3 @@ function PlayerStateFree(){
 		moveDistanceRemaining = PLAYER_ROLLDISTANCE
 	}
 }
-

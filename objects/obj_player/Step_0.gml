@@ -4,7 +4,7 @@ var _keyLeft = keyboard_check(vk_left) || keyboard_check(ord("A"))
 var _keyRight = keyboard_check(vk_right) || keyboard_check(ord("D"))
 keyActivate = keyboard_check_pressed(vk_space)
 var _keyAttack = keyboard_check_pressed(vk_control)
-var _keyItem = keyboard_check_pressed(vk_control)
+var _keyItem = keyboard_check_pressed(vk_shift)
 
 var vx = 0
 var vy = 0

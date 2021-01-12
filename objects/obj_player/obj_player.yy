@@ -26,8 +26,8 @@
   ],
   "properties": [
     {"varType":0,"value":"3.0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"PLAYER_MOVESPEED","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":0,"value":"5.0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"PLAYER_ROLLSPEED","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":0,"value":"52","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"PLAYER_ROLLDISTANCE","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"8.0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"PLAYER_ROLLSPEED","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"100.0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"PLAYER_ROLLDISTANCE","tags":[],"resourceType":"GMObjectProperty",},
   ],
   "overriddenProperties": [],
   "parent": {
