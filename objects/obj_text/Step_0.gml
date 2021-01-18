@@ -10,6 +10,20 @@ if (keyboard_check_pressed(vk_space))
 	if (textProgress >= _messageLength)
 	{
 		instance_destroy()
+		if (instance_exists(obj_textQueued))
+		{
+			with (obj_textQueued)
+			{
+				ticket--
+			}
+		}
+		else
+		{
+			with (obj_player)
+			{
+				state = lastState
+			}
+		}
 	}
 	else
 	{
