@@ -18,6 +18,10 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"inheritCode":true,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":{"name":"inst_1A7D3564","path":"rooms/r_parent/r_parent.yy",},"frozen":false,"ignore":false,"inheritItemSettings":true,"x":320.0,"y":224.0,"resourceVersion":"1.0","name":"inst_1A7D3564","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[
+            {"propertyId":{"name":"ENTITY_ACTIVATE_SCRIPT","path":"objects/obj_parentEntity/obj_parentEntity.yy",},"objectId":{"name":"obj_parentEntity","path":"objects/obj_parentEntity/obj_parentEntity.yy",},"value":"NewTextBox","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+            {"propertyId":{"name":"ENTITY_ACTIVATE_ARGS","path":"objects/obj_parentEntity/obj_parentEntity.yy",},"objectId":{"name":"obj_parentEntity","path":"objects/obj_parentEntity/obj_parentEntity.yy",},"value":"[\"hello\", 0]","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+          ],"isDnd":false,"objectId":{"name":"obj_signpost","path":"objects/obj_signpost/obj_signpost.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":128.0,"resourceVersion":"1.0","name":"inst_FEDCEBA","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"Tile_col","path":"tilesets/Tile_col/Tile_col.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":20,"SerialiseHeight":15,"TileSerialiseData":[
 2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,0,2147483648,2147483648,2147483648,0,0,0,0,0,2147483648,2147483648,2147483648,2147483648,2147483648,
@@ -77,6 +81,7 @@
   "inheritCode": true,
   "instanceCreationOrder": [
     {"name":"inst_1A7D3564","path":"rooms/r_sample/r_sample.yy",},
+    {"name":"inst_FEDCEBA","path":"rooms/r_sample/r_sample.yy",},
   ],
   "inheritCreationOrder": true,
   "sequenceId": null,
