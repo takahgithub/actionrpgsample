@@ -1,5 +1,5 @@
 randomize()
-global.textSpeed = 0.75
+global.textSpeed = TEXT_SPEED
 global.gamePaused = false
 
 // ↓これいる？
