@@ -7,7 +7,7 @@ function PlayerAnimateSprite(){
 	var _totalFrames = sprite_get_number(sprite_index) / 4
 	// 表示する画像のindexを設定する
 	image_index = localFrame + (_cardinalDirection * _totalFrames)
-	localFrame += sprite_get_speed(sprite_index) / room_speed / 4
+	localFrame += sprite_get_speed(sprite_index) / room_speed
 	
 	// 最後の画像まで行ったら最初に戻る
 	if (localFrame >= _totalFrames)
