@@ -12,7 +12,7 @@ function PlayerStateRoll(){
 	var _totalFrames = sprite_get_number(sprite_index) / 4
 	
 	// Imageの更新
-	// image_index = (CARDINAL_DIR * _totalFrames) + min(((1 - (moveDistanceRemaining / PLAYER_ROLLDISTANCE)) * _totalFrames), _totalFrames - 1)
+	image_index = (CARDINAL_DIR * _totalFrames) + min(((1 - (moveDistanceRemaining / PLAYER_ROLLDISTANCE)) * _totalFrames), _totalFrames - 1)
 	
 	// state遷移
 	if (moveDistanceRemaining <= 0)
