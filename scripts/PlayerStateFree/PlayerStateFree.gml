@@ -23,6 +23,12 @@ function PlayerStateFree(){
 	// Image Indexの更新
 	PlayerAnimateSprite()
 	
+	if (keyAttack)
+	{
+		state = PlayerStateAttack
+		stateAttack = AttackSlash
+	}
+	
 	if (keyActivate)
 	{
 		var _activateX = lengthdir_x(20, direction)
