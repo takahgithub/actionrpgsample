@@ -77,7 +77,7 @@
     "spriteId": {"name":"spr_playerAttackSlash","path":"sprites/spr_playerAttackSlash/spr_playerAttackSlash.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 3.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
