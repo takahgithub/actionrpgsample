@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_signpost",
-    "path": "sprites/spr_signpost/spr_signpost.yy",
+    "name": "spr_plant",
+    "path": "sprites/spr_plant/spr_plant.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,14 +26,15 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"ENTITY_HIT_SCRIPT","path":"objects/obj_parentEntity/obj_parentEntity.yy",},"objectId":{"name":"obj_parentEntity","path":"objects/obj_parentEntity/obj_parentEntity.yy",},"value":"EntityHitSolid","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"ENTITY_SHADOW","path":"objects/obj_parentEntity/obj_parentEntity.yy",},"objectId":{"name":"obj_parentEntity","path":"objects/obj_parentEntity/obj_parentEntity.yy",},"value":"False","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"ENTITY_HIT_SCRIPT","path":"objects/obj_parentEntity/obj_parentEntity.yy",},"objectId":{"name":"obj_parentEntity","path":"objects/obj_parentEntity/obj_parentEntity.yy",},"value":"EntityHitDestroy","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_signpost",
+  "name": "obj_plant",
   "tags": [],
   "resourceType": "GMObject",
 }

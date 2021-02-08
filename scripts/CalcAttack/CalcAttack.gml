@@ -12,7 +12,10 @@ function CalcAttack(_hbSprite){
 				ds_list_add(hitByAttack, _hitId)
 				with (_hitId)
 				{
-					image_blend = c_red
+					if (ENTITY_HIT_SCRIPT != -1)
+					{
+						script_execute(ENTITY_HIT_SCRIPT)
+					}
 				}
 			}
 		}
