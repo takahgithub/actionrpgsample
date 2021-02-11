@@ -12,6 +12,7 @@
     {"id":{"name":"spr_textBoxBgOld","path":"sprites/spr_textBoxBgOld/spr_textBoxBgOld.yy",},"order":5,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"obj_plant","path":"objects/obj_plant/obj_plant.yy",},"order":7,},
+    {"id":{"name":"obj_fragPlant","path":"objects/obj_fragPlant/obj_fragPlant.yy",},"order":9,},
     {"id":{"name":"sh_whiteFlash","path":"shaders/sh_whiteFlash/sh_whiteFlash.yy",},"order":0,},
     {"id":{"name":"obj_parentEntity","path":"objects/obj_parentEntity/obj_parentEntity.yy",},"order":4,},
     {"id":{"name":"PlayerStateLocked","path":"scripts/PlayerStateLocked/PlayerStateLocked.yy",},"order":6,},
@@ -38,6 +39,7 @@
     {"id":{"name":"AttackSlash","path":"scripts/AttackSlash/AttackSlash.yy",},"order":12,},
     {"id":{"name":"NineSliceBoxStretched","path":"scripts/NineSliceBoxStretched/NineSliceBoxStretched.yy",},"order":5,},
     {"id":{"name":"Tile_col","path":"tilesets/Tile_col/Tile_col.yy",},"order":0,},
+    {"id":{"name":"obj_fragment","path":"objects/obj_fragment/obj_fragment.yy",},"order":8,},
     {"id":{"name":"obj_signpost","path":"objects/obj_signpost/obj_signpost.yy",},"order":5,},
     {"id":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},"order":2,},
     {"id":{"name":"PlayerCollision","path":"scripts/PlayerCollision/PlayerCollision.yy",},"order":0,},
@@ -45,6 +47,7 @@
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},"order":1,},
     {"id":{"name":"spr_map","path":"sprites/spr_map/spr_map.yy",},"order":2,},
     {"id":{"name":"r_init","path":"rooms/r_init/r_init.yy",},"order":1,},
+    {"id":{"name":"spr_fragPlant","path":"sprites/spr_fragPlant/spr_fragPlant.yy",},"order":14,},
     {"id":{"name":"r_parent","path":"rooms/r_parent/r_parent.yy",},"order":0,},
   ],
   "Options": [
