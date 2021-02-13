@@ -31,6 +31,7 @@
     {"id":{"name":"obj_textQueued","path":"objects/obj_textQueued/obj_textQueued.yy",},"order":3,},
     {"id":{"name":"spr_playerHurt","path":"sprites/spr_playerHurt/spr_playerHurt.yy",},"order":9,},
     {"id":{"name":"ScriptExecuteArray","path":"scripts/ScriptExecuteArray/ScriptExecuteArray.yy",},"order":8,},
+    {"id":{"name":"DropItems","path":"scripts/DropItems/DropItems.yy",},"order":17,},
     {"id":{"name":"PlayerStateFree","path":"scripts/PlayerStateFree/PlayerStateFree.yy",},"order":1,},
     {"id":{"name":"PlayerStateBonk","path":"scripts/PlayerStateBonk/PlayerStateBonk.yy",},"order":10,},
     {"id":{"name":"spr_signpost","path":"sprites/spr_signpost/spr_signpost.yy",},"order":6,},
