@@ -24,5 +24,6 @@ function PlayerStateRoll(){
 	{
 		state = PlayerStateBonk
 		moveDistanceRemaining = PLAYER_BONKDISTANCE
+		ScreenShake(8, 30)
 	}
 }

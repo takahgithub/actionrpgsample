@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"ScreenShake","path":"scripts/ScreenShake/ScreenShake.yy",},"order":18,},
     {"id":{"name":"f_text","path":"fonts/f_text/f_text.yy",},"order":0,},
     {"id":{"name":"spr_playerRoll","path":"sprites/spr_playerRoll/spr_playerRoll.yy",},"order":3,},
     {"id":{"name":"spr_shadow","path":"sprites/spr_shadow/spr_shadow.yy",},"order":10,},
@@ -20,6 +21,7 @@
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
     {"id":{"name":"obj_questNPC","path":"objects/obj_questNPC/obj_questNPC.yy",},"order":6,},
     {"id":{"name":"spr_questNPC","path":"sprites/spr_questNPC/spr_questNPC.yy",},"order":7,},
+    {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":10,},
     {"id":{"name":"spr_playerAttackSlashHB","path":"sprites/spr_playerAttackSlashHB/spr_playerAttackSlashHB.yy",},"order":12,},
     {"id":{"name":"spr_textBoxBg","path":"sprites/spr_textBoxBg/spr_textBoxBg.yy",},"order":8,},
     {"id":{"name":"spr_col","path":"sprites/spr_col/spr_col.yy",},"order":1,},
