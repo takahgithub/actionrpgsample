@@ -18,3 +18,10 @@ spriteRun = spr_playerRun
 spriteIdle = spr_player
 spriteBonk = spr_playerHurt
 localFrame = 0
+
+if (global.targetX != -1)
+{
+	x = global.targetX
+	y = global.targetY
+	direction = global.targetDirection
+}
