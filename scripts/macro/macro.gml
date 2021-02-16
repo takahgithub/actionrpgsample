@@ -4,3 +4,6 @@
 #macro TEXT_SPEED 0.75
 #macro RESOLUTION_W 640
 #macro RESOLUTION_H 480
+#macro TRANSITION_SPEED 0.02
+#macro OUT 0
+#macro IN 1
