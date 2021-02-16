@@ -1,7 +1,7 @@
 if (!global.gamePaused)
 {
 	// Bounce
-	if (BOUNCE_COUNT != 0)
+	if (bounceCount != 0)
 	{
 		bounce += (pi * BOUNCE_SPEED)
 		if (bounce > pi)
