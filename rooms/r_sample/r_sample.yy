@@ -35,6 +35,8 @@
             {"propertyId":{"name":"TARGET_X","path":"objects/obj_roomExit/obj_roomExit.yy",},"objectId":{"name":"obj_roomExit","path":"objects/obj_roomExit/obj_roomExit.yy",},"value":"64","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
             {"propertyId":{"name":"TARGET_Y","path":"objects/obj_roomExit/obj_roomExit.yy",},"objectId":{"name":"obj_roomExit","path":"objects/obj_roomExit/obj_roomExit.yy",},"value":"736","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"obj_roomExit","path":"objects/obj_roomExit/obj_roomExit.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.0,"scaleY":13.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":608.0,"y":32.0,"resourceVersion":"1.0","name":"inst_54D749ED","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_pot","path":"objects/obj_pot/obj_pot.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":512.0,"y":224.0,"resourceVersion":"1.0","name":"inst_59FC717C","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_pot","path":"objects/obj_pot/obj_pot.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":480.0,"y":320.0,"resourceVersion":"1.0","name":"inst_149E356E","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"Tile_col","path":"tilesets/Tile_col/Tile_col.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":20,"SerialiseHeight":15,"TileSerialiseData":[
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
@@ -100,6 +102,8 @@
     {"name":"inst_44C3EAA3","path":"rooms/r_sample/r_sample.yy",},
     {"name":"inst_2874DD7E","path":"rooms/r_sample/r_sample.yy",},
     {"name":"inst_54D749ED","path":"rooms/r_sample/r_sample.yy",},
+    {"name":"inst_59FC717C","path":"rooms/r_sample/r_sample.yy",},
+    {"name":"inst_149E356E","path":"rooms/r_sample/r_sample.yy",},
   ],
   "inheritCreationOrder": true,
   "sequenceId": null,
