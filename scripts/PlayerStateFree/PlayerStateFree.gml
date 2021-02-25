@@ -35,11 +35,20 @@ function PlayerStateFree(){
 		var _activateY = lengthdir_y(20, direction)
 		activate = instance_position(x+_activateX, y+_activateY, obj_parentEntity)
 		
-		// 近くにアクション対象のものがなければ、またはあったとしても実行すべき処理がなければ、Roll状態に遷移する
+		// 近くにアクション対象のものがない場合、またはあったとしても実行すべき処理がない場合
 		if ((activate == noone) || (activate.ENTITY_ACTIVATE_SCRIPT == -1))
 		{
-			state = PlayerStateRoll
-			moveDistanceRemaining = PLAYER_ROLLDISTANCE
+			// 何かものを持っていれば投げる
+			if (global.iLifted != noone)
+			{
+				PlayerThrow()
+			}
+			// それ以外の場合はRoll状態に遷移する
+			else
+			{
+				state = PlayerStateRoll
+				moveDistanceRemaining = PLAYER_ROLLDISTANCE
+			}
 		}
 		// もしあれば、設定された処理を実行する
 		else

@@ -8,6 +8,7 @@
     {"id":{"name":"spr_playerRun","path":"sprites/spr_playerRun/spr_playerRun.yy",},"order":4,},
     {"id":{"name":"PlayerStateAct","path":"scripts/PlayerStateAct/PlayerStateAct.yy",},"order":21,},
     {"id":{"name":"spr_playerAttackSlash","path":"sprites/spr_playerAttackSlash/spr_playerAttackSlash.yy",},"order":11,},
+    {"id":{"name":"PlayerThrow","path":"scripts/PlayerThrow/PlayerThrow.yy",},"order":24,},
     {"id":{"name":"PlayerStateRoll","path":"scripts/PlayerStateRoll/PlayerStateRoll.yy",},"order":2,},
     {"id":{"name":"spr_trigger","path":"sprites/spr_trigger/spr_trigger.yy",},"order":15,},
     {"id":{"name":"obj_transition","path":"objects/obj_transition/obj_transition.yy",},"order":12,},

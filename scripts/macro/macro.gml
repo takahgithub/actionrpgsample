@@ -7,3 +7,4 @@
 #macro TRANSITION_SPEED 0.02
 #macro OUT 0
 #macro IN 1
+#macro CARRY_HEIGHT 30
