@@ -10,8 +10,10 @@ image_speed = 0
 
 hSpeed = 0
 vSpeed = 0
-
 z = 0
+
+animationEndScript = -1
+animationEndScriptArgs = []
 
 spriteRoll = spr_playerRoll
 spriteRun = spr_playerRun
