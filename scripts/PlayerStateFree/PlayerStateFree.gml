@@ -31,10 +31,42 @@ function PlayerStateFree(){
 	
 	if (keyActivate)
 	{
-		var _activateX = lengthdir_x(20, direction)
-		var _activateY = lengthdir_y(20, direction)
-		activate = instance_position(x+_activateX, y+_activateY, obj_parentEntity)
+		var _activateX = x + lengthdir_x(20, direction)
+		var _activateY = y + lengthdir_y(20, direction)
+		var _activateSize = 8
+		var _activateList = ds_list_create()
+		activate = noone
 		
+		// 近くにあるエンティティを全て取得して_activateListに格納
+		// 自分の前方の、正方形の領域内にあるエンティティを探す
+		var _entitiesFound = collision_rectangle_list(
+			_activateX - _activateSize,
+			_activateY - _activateSize,
+			_activateX + _activateSize,
+			_activateY + _activateSize,
+			obj_parentEntity,
+			false,
+			true,
+			_activateList,
+			true
+		)
+		
+		// 近くにあるエンティティの中から次の2条件に合致するものを探す
+		// 複数ある場合は先勝ち。どのオブジェクトが先になるかはよくわからない
+		// ・今自分が持っているオブジェクトではない場合
+		// ・アクションボタンを押したときに実行すべき処理がある場合
+		while (_entitiesFound > 0)
+		{
+			var _check = _activateList[| --_entitiesFound]
+			if ((_check != global.iLifted) && (_check.ENTITY_ACTIVATE_SCRIPT != -1))
+			{
+				activate = _check
+				break
+			}
+		}
+		
+		ds_list_destroy(_activateList)
+
 		// 近くにアクション対象のものがない場合、またはあったとしても実行すべき処理がない場合
 		if ((activate == noone) || (activate.ENTITY_ACTIVATE_SCRIPT == -1))
 		{
