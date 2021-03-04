@@ -8,7 +8,7 @@ function PlayerThrow(){
 		throwPeakHeight = z + 20
 		throwDistance = ENTITY_THROW_DISTANCE
 		throwDistanceTravelled = 0
-		throwStartPercent = (13 / throwPeakHeight) * 0.5
+		throwStartPercent = (CARRY_HEIGHT / throwPeakHeight) * 0.5
 		throwPercent = throwStartPercent
 		direction = other.direction
 		xstart = x
