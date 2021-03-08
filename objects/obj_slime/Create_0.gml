@@ -6,3 +6,4 @@ state = ENEMYSTATE.WANDER
 sprMove = spr_slime
 
 enemyScript[ENEMYSTATE.WANDER] = SlimeWander
+enemyScript[ENEMYSTATE.CHASE] = SlimeChase

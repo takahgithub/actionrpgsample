@@ -47,4 +47,16 @@ function SlimeWander(){
 		// タイルとの衝突判定と移動
 		var _collided = EnemyTileCollision()
 	}
+	
+	// 近くにプレイヤーがいるか探す
+	if (++aggroCheck >= aggroCheckDuration)
+	{
+		aggroCheck = 0
+		if (instance_exists(obj_player) 
+			&& (point_distance(x, y, obj_player.x, obj_player.y) <= ENEMY_AGGRO_RADIUS))
+		{
+			state = ENEMYSTATE.CHASE
+			target = obj_player
+		}
+	}
 }

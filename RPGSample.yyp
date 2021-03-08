@@ -27,6 +27,7 @@
     {"id":{"name":"obj_parentEntity","path":"objects/obj_parentEntity/obj_parentEntity.yy",},"order":4,},
     {"id":{"name":"PlayerStateLocked","path":"scripts/PlayerStateLocked/PlayerStateLocked.yy",},"order":6,},
     {"id":{"name":"PlayerStateAttack","path":"scripts/PlayerStateAttack/PlayerStateAttack.yy",},"order":11,},
+    {"id":{"name":"SlimeChase","path":"scripts/SlimeChase/SlimeChase.yy",},"order":27,},
     {"id":{"name":"PlayerActOutAnimation","path":"scripts/PlayerActOutAnimation/PlayerActOutAnimation.yy",},"order":22,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
     {"id":{"name":"spr_slime","path":"sprites/spr_slime/spr_slime.yy",},"order":18,},
