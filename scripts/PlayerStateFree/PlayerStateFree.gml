@@ -97,7 +97,5 @@ function PlayerStateFree(){
 				}
 			}
 		}
-		
-		
 	}
 }

@@ -25,4 +25,16 @@ function SlimeChase(){
 		}
 		EnemyTileCollision()
 	}
+	
+	// 追跡するターゲットが攻撃範囲内にいたら
+	if (instance_exists(target) && (point_distance(x, y, target.x, target.y) <= ENEMY_ATTACK_RADIUS))
+	{
+		state = ENEMYSTATE.ATTACK
+		sprite_index = sprAttack
+		image_index = 0
+		image_speed = 1.0
+		// 攻撃モーション中にターゲットの方向に少し移動する
+		xTo += lengthdir_x(16, dir)
+		yTo += lengthdir_y(16, dir)
+	}
 }
