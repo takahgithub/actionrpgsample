@@ -10,7 +10,7 @@ function SlimeAttack(){
 		image_speed = 0
 	}
 	
-	var _distanceToGo = point_direction(x, y, xTo, yTo)
+	var _distanceToGo = point_distance(x, y, xTo, yTo)
 	if ((_distanceToGo < 4) && (image_index < 5))
 	{
 		image_speed = 1.0
