@@ -18,6 +18,8 @@ timePassed = 0
 waitDuration = 60
 wait = 0
 
+enemyHP = ENEMY_HP
+
 sprMove = spr_slime
 
 enemyScript[ENEMYSTATE.IDLE] = -1
