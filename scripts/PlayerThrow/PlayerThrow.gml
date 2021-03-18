@@ -15,6 +15,6 @@ function PlayerThrow(){
 		ystart = y
 	}
 	
-	PlayerActOutAnimation(spr_playerLift)
+	PlayerActOutAnimation(spr_playerThrow)
 	global.iLifted = noone
 }

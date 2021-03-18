@@ -20,6 +20,7 @@
     {"id":{"name":"spr_plant","path":"sprites/spr_plant/spr_plant.yy",},"order":13,},
     {"id":{"name":"spr_textBoxBgOld","path":"sprites/spr_textBoxBgOld/spr_textBoxBgOld.yy",},"order":5,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
+    {"id":{"name":"spr_playerThrow","path":"sprites/spr_playerThrow/spr_playerThrow.yy",},"order":21,},
     {"id":{"name":"SlimeDie","path":"scripts/SlimeDie/SlimeDie.yy",},"order":32,},
     {"id":{"name":"obj_pot","path":"objects/obj_pot/obj_pot.yy",},"order":13,},
     {"id":{"name":"ActivateLiftable","path":"scripts/ActivateLiftable/ActivateLiftable.yy",},"order":23,},
