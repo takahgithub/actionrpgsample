@@ -1,6 +1,7 @@
 if (!global.gamePaused)
 {
 	depth = -bbox_bottom
+	// 物が持ち上げられている状態
 	if (lifted && instance_exists(obj_player))
 	{
 		if (obj_player.sprite_index != spr_playerLift)
@@ -14,6 +15,7 @@ if (!global.gamePaused)
 	
 	if (!lifted)
 	{
+		// ものが宙を浮いている状態
 		if (thrown)
 		{
 			throwDistanceTravelled = min(throwDistanceTravelled + 3, throwDistance)
@@ -25,6 +27,11 @@ if (!global.gamePaused)
 				grav = 0.1
 			}
 			
+			// lerp([始点の値], [終点の値], [パーセント])
+			// lerp(0, 100, 0.5) = 50
+			// start = 0.3
+			// 0~0.7
+			// 0.3 + lerp(0, 0.7, [パーセントを増やしていく])
 			throwPercent = throwStartPercent + lerp(0, 1 - throwStartPercent, throwDistanceTravelled / throwDistance)
 			z = throwPeakHeight * sin(throwPercent * pi)
 			if (throwDistance == throwDistanceTravelled)
@@ -58,3 +65,12 @@ if (!global.gamePaused)
 }
 
 flash = max(flash - 0.03, 0)
+
+// lifted:持ち上げられている状態
+// thrown:投げられている状態
+
+// lifted	thrown
+// true		true	ない
+// true		false	ある
+// false	true	ある。宙を飛んでいる状態
+// false	false	ある
