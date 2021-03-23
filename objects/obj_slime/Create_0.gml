@@ -6,6 +6,7 @@ state = ENEMYSTATE.WANDER
 sprMove = spr_slime
 sprAttack = spr_slimeAttack
 sprHurt = spr_slimeHurt
+sprDie = spr_slimeDie
 
 enemyScript[ENEMYSTATE.WANDER] = SlimeWander
 enemyScript[ENEMYSTATE.CHASE] = SlimeChase

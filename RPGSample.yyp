@@ -11,6 +11,7 @@
     {"id":{"name":"PlayerThrow","path":"scripts/PlayerThrow/PlayerThrow.yy",},"order":24,},
     {"id":{"name":"PlayerStateRoll","path":"scripts/PlayerStateRoll/PlayerStateRoll.yy",},"order":2,},
     {"id":{"name":"obj_slime","path":"objects/obj_slime/obj_slime.yy",},"order":15,},
+    {"id":{"name":"spr_slimeDie","path":"sprites/spr_slimeDie/spr_slimeDie.yy",},"order":22,},
     {"id":{"name":"spr_trigger","path":"sprites/spr_trigger/spr_trigger.yy",},"order":15,},
     {"id":{"name":"HurtEnemy","path":"scripts/HurtEnemy/HurtEnemy.yy",},"order":30,},
     {"id":{"name":"obj_transition","path":"objects/obj_transition/obj_transition.yy",},"order":12,},

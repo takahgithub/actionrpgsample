@@ -28,7 +28,7 @@
   ],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"ENEMY_HP","path":"objects/obj_parentEnemy/obj_parentEnemy.yy",},"objectId":{"name":"obj_parentEnemy","path":"objects/obj_parentEnemy/obj_parentEnemy.yy",},"value":"50","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"ENEMY_HP","path":"objects/obj_parentEnemy/obj_parentEnemy.yy",},"objectId":{"name":"obj_parentEnemy","path":"objects/obj_parentEnemy/obj_parentEnemy.yy",},"value":"10","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Objects",
