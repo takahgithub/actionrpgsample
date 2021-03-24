@@ -11,6 +11,9 @@ image_speed = 0
 hSpeed = 0
 vSpeed = 0
 z = 0
+invulnerable = 0
+flash = 0
+flashShader = sh_whiteFlash
 
 animationEndScript = -1
 animationEndScriptArgs = []

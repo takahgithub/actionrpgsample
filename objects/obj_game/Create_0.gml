@@ -7,8 +7,7 @@ global.targetY = -1
 global.targetDirection = 0
 global.iLifted = noone
 global.playerHealthMax = 5
-// global.playerHealth = global.playerHealthMax
-global.playerHealth = 2.5
+global.playerHealth = global.playerHealthMax
 
 global.iCamera = instance_create_layer(0, 0, layer, obj_camera)
 global.iUI = instance_create_layer(0, 0, layer, obj_UI)
