@@ -28,5 +28,4 @@ function HurtEnemy(_enemy, _damage, _source, _knockback){
 			}
 		}
 	}
-
 }
