@@ -3,7 +3,7 @@ function ActivateLiftable(_lifted){
 	{
 		PlayerActOutAnimation(spr_playerLift)
 		
-		spriteidle = spr_playerCarrying
+		spriteIdle = spr_playerCarrying
 		spriteRun = spr_playerRunCarrying
 		
 		global.iLifted = _lifted
