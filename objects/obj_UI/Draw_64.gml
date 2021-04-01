@@ -7,6 +7,12 @@ _playerHealth -= _playerHealthFrac
 
 for (var i = 1; i <= _playerHealthMax; i++)
 {
+	// 現在のHP = 3.5　→ _playerHealth = 3, _playerHealthFrac = 0.5
+	// i = 1 _imageIndex = 0
+	// i = 2 _imageIndex = 0
+	// i = 3 _imageIndex = 0
+	// i = 4 _imageIndex = 3
+	// i = 5 _imageIndex = 1
 	var _imageIndex = (i > _playerHealth)
 	if (i == (_playerHealth + 1))
 	{
