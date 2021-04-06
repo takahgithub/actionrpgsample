@@ -7,7 +7,7 @@ global.targetY = -1
 global.targetDirection = 0
 global.iLifted = noone
 global.playerHealthMax = 5
-global.playerHealth = global.playerHealthMax - 1.5
+global.playerHealth = global.playerHealthMax
 global.questStatus = ds_map_create()
 global.questStatus[? "TheHatQuest"] = 0
 

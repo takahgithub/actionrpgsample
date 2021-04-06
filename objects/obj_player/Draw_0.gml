@@ -1,5 +1,7 @@
 draw_sprite(spr_shadow, 0, floor(x), floor(y))
 
+// invulnerable = 20
+// 4, 3, 2, 1, 0, 7, 6, 5, 4, 3, 2, 1, 0, ...
 if ((invulnerable != 0) && !((invulnerable mod 8) < 2) && (flash == 0))
 {
 	// キャラクターの描画をしない
