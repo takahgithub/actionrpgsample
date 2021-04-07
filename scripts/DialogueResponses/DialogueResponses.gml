@@ -12,6 +12,14 @@ function DialogueResponses(_responseNumber){
 		case 3:
 			NewTextBox("Thanks for your responses!", 0)
 			break
+		case 4:
+			NewTextBox("Thanks!", 0)
+			NewTextBox("I think I left it in that scary cave to the north east!", 0)
+			global.questStatus[? "TheHatQuest"] = 1
+			break
+		case 5:
+			NewTextBox(":(", 0)
+			break
 		default:
 			break
 	}
