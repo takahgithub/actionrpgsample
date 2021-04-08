@@ -1,0 +1,1 @@
+HurtPlayer(point_direction(x, y, obj_player.x, obj_player.y), ENEMY_FORCE_TOUCH, ENEMY_DAMAGE_TOUCH)

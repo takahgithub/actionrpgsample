@@ -1,6 +1,9 @@
 with (obj_player)
 {
-	state = PlayerStateTransition
+	if (state != PlayerStateDead)
+	{
+		state = PlayerStateTransition
+	}
 }
 
 // 部屋から出るときの処理。percentを増やしていき、1になったら部屋遷移する。

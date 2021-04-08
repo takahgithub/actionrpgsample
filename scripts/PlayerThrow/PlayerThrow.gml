@@ -17,4 +17,7 @@ function PlayerThrow(){
 	
 	PlayerActOutAnimation(spr_playerThrow)
 	global.iLifted = noone
+	
+	spriteIdle = spr_player
+	spriteRun = spr_playerRun
 }
