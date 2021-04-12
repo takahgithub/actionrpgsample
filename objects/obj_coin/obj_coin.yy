@@ -27,6 +27,8 @@
   "properties": [],
   "overriddenProperties": [
     {"propertyId":{"name":"ENTITY_SHADOW","path":"objects/obj_parentEntity/obj_parentEntity.yy",},"objectId":{"name":"obj_parentEntity","path":"objects/obj_parentEntity/obj_parentEntity.yy",},"value":"False","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"COLLECT_SCRIPT","path":"objects/obj_parentCollectible/obj_parentCollectible.yy",},"objectId":{"name":"obj_parentCollectible","path":"objects/obj_parentCollectible/obj_parentCollectible.yy",},"value":"CollectCoins","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"COLLECT_SCRIPT_ARG","path":"objects/obj_parentCollectible/obj_parentCollectible.yy",},"objectId":{"name":"obj_parentCollectible","path":"objects/obj_parentCollectible/obj_parentCollectible.yy",},"value":"1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Objects",

@@ -1,3 +1,5 @@
+// HPの表示
+
 var _playerHealth = global.playerHealth
 var _playerHealthMax = global.playerHealthMax
 // HPの小数部分
@@ -22,3 +24,27 @@ for (var i = 1; i <= _playerHealthMax; i++)
 	}
 	draw_sprite(spr_health, _imageIndex, 8 + ((i - 1) * 24), 8)
 }
+
+// コインの表示
+
+var _xx, _yy
+
+// コインのアイコン
+_xx = 8
+_yy = 45
+draw_sprite(spr_coinUI, 0, _xx, _yy)
+
+// 文字
+draw_set_color(c_black)
+draw_set_font(f_text)
+draw_set_halign(fa_left)
+draw_set_valign(fa_top)
+_xx += sprite_get_width(spr_coinUI) + 4
+_yy = 45
+var _str = string(global.playerMoney)
+draw_text(_xx+1, _yy, _str)
+draw_text(_xx-1, _yy, _str)
+draw_text(_xx, _yy+1, _str)
+draw_text(_xx, _yy-1, _str)
+draw_set_color(c_white)
+draw_text(_xx, _yy, _str)
