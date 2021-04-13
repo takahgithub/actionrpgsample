@@ -10,6 +10,7 @@ function PlayerStateDead(){
 		image_speed = 0.7
 	}
 	
+	// Spriteの最後の画像を表示しているとき
 	if ((image_index + image_speed) > image_number)
 	{
 		if (sprite_index == spr_playerDie)

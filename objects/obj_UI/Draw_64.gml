@@ -22,7 +22,7 @@ for (var i = 1; i <= _playerHealthMax; i++)
 		_imageIndex += (_playerHealthFrac > 0.25)
 		_imageIndex += (_playerHealthFrac > 0.5)
 	}
-	draw_sprite(spr_health, _imageIndex, 8 + ((i - 1) * 24), 8)
+	draw_sprite(spr_health, _imageIndex, 8 + ((i - 1) * 30), 8)
 }
 
 // コインの表示
