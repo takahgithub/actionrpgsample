@@ -18,9 +18,21 @@ flashShader = sh_whiteFlash
 animationEndScript = -1
 animationEndScriptArgs = []
 
+if (global.iLifted != noone)
+{
+	spriteIdle = spr_playerCarrying
+	spriteRun = spr_playerRunCarrying
+}
+else
+{
+	spriteIdle = spr_player
+	spriteRun = spr_playerRun
+}
+sprite_index = spriteIdle
+
 spriteRoll = spr_playerRoll
-spriteRun = spr_playerRun
-spriteIdle = spr_player
+//spriteRun = spr_playerRun
+//spriteIdle = spr_player
 spriteBonk = spr_playerHurt
 localFrame = 0
 
