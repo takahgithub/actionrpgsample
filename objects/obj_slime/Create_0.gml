@@ -13,3 +13,13 @@ enemyScript[ENEMYSTATE.CHASE] = SlimeChase
 enemyScript[ENEMYSTATE.ATTACK] = SlimeAttack
 enemyScript[ENEMYSTATE.HURT] = SlimeHurt
 enemyScript[ENEMYSTATE.DIE] = SlimeDie
+
+entityDropList = choose
+(
+	[obj_coin],
+	[obj_coin, obj_coin],
+	[obj_bombDrop],
+	-1,
+	-1,
+	-1
+)

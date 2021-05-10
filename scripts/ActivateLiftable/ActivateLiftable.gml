@@ -12,6 +12,5 @@ function ActivateLiftable(_lifted){
 			lifted = true
 			persistent = true
 		}
-	}
-		
+	}	
 }
