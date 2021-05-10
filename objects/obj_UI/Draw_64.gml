@@ -30,8 +30,8 @@ for (var i = 1; i <= _playerHealthMax; i++)
 var _xx, _yy
 
 // コインのアイコン
-_xx = 8
-_yy = 45
+_xx = 45
+_yy = 58
 draw_sprite(spr_coinUI, 0, _xx, _yy)
 
 // 文字
@@ -40,7 +40,7 @@ draw_set_font(f_text)
 draw_set_halign(fa_left)
 draw_set_valign(fa_top)
 _xx += sprite_get_width(spr_coinUI) + 4
-_yy = 45
+_yy = 58
 var _str = string(global.playerMoney)
 draw_text(_xx+1, _yy, _str)
 draw_text(_xx-1, _yy, _str)
@@ -48,3 +48,25 @@ draw_text(_xx, _yy+1, _str)
 draw_text(_xx, _yy-1, _str)
 draw_set_color(c_white)
 draw_text(_xx, _yy, _str)
+
+// アイテムの表示
+_xx = 8
+_yy = 45
+
+draw_sprite(spr_itemUIBox, 0, _xx, _yy)
+if (global.playerHasAnyItems)
+{
+	draw_sprite(spr_itemUI, global.playerEquipped, _xx, _yy)
+	if (global.playerAmmo[global.playerEquipped] != -1)
+	{
+		draw_set_font(f_ammo)
+		draw_set_halign(fa_right)
+		draw_set_valign(fa_bottom)
+		draw_set_color(c_white)
+		draw_text(
+			_xx + sprite_get_width(spr_itemUIBox) + 1,
+			_yy + sprite_get_height(spr_itemUIBox) + 1,
+			string(global.playerAmmo[global.playerEquipped])
+		)
+	}
+}

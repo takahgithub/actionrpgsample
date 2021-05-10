@@ -9,6 +9,21 @@ global.iLifted = noone
 global.playerHealthMax = 5
 global.playerHealth = global.playerHealthMax
 global.playerMoney = 0
+
+// Items
+global.playerHasAnyItems = false
+global.playerEquipped = ITEM.BOMB
+global.playerAmmo = array_create(ITEM.TYPE_COUNT, -1)
+global.playerItemUnlocked = array_create(ITEM.TYPE_COUNT, false)
+global.playerAmmo[ITEM.BOMB] = 0
+global.playerAmmo[ITEM.BOW] = 0
+
+// Items test
+global.playerItemUnlocked[ITEM.BOMB] = true
+global.playerHasAnyItems = true
+global.playerAmmo[ITEM.BOMB] = 5
+
+// Quest
 global.questStatus = ds_map_create()
 global.questStatus[? "TheHatQuest"] = 0
 
