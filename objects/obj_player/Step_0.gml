@@ -5,6 +5,8 @@ var _keyRight = keyboard_check(vk_right) || keyboard_check(ord("D"))
 keyActivate = keyboard_check_pressed(vk_space)
 keyAttack = keyboard_check_pressed(vk_control)
 keyItem = keyboard_check_pressed(vk_shift)
+keyItemSelectUp = keyboard_check_pressed(ord("E"))
+keyItemSelectDown = keyboard_check_pressed(ord("Q"))
 
 var vx = 0
 var vy = 0
