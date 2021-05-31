@@ -3,7 +3,7 @@
     {"id":{"name":"ScreenShake","path":"scripts/ScreenShake/ScreenShake.yy",},"order":18,},
     {"id":{"name":"f_text","path":"fonts/f_text/f_text.yy",},"order":0,},
     {"id":{"name":"obj_roomExit","path":"objects/obj_roomExit/obj_roomExit.yy",},"order":11,},
-    {"id":{"name":"spr_bomb","path":"sprites/spr_bomb/spr_bomb.yy",},"order":31,},
+    {"id":{"name":"spr_bombStart","path":"sprites/spr_bombStart/spr_bombStart.yy",},"order":31,},
     {"id":{"name":"spr_playerRoll","path":"sprites/spr_playerRoll/spr_playerRoll.yy",},"order":3,},
     {"id":{"name":"spr_bombDrop","path":"sprites/spr_bombDrop/spr_bombDrop.yy",},"order":36,},
     {"id":{"name":"spr_shadow","path":"sprites/spr_shadow/spr_shadow.yy",},"order":10,},
@@ -111,6 +111,7 @@
     {"id":{"name":"r_init","path":"rooms/r_init/r_init.yy",},"order":1,},
     {"id":{"name":"spr_fragPlant","path":"sprites/spr_fragPlant/spr_fragPlant.yy",},"order":14,},
     {"id":{"name":"r_sample2","path":"rooms/r_sample2/r_sample2.yy",},"order":3,},
+    {"id":{"name":"spr_bombEnd","path":"sprites/spr_bombEnd/spr_bombEnd.yy",},"order":37,},
     {"id":{"name":"r_parent","path":"rooms/r_parent/r_parent.yy",},"order":0,},
   ],
   "Options": [
