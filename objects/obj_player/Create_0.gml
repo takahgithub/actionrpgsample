@@ -18,6 +18,11 @@ flashShader = sh_whiteFlash
 animationEndScript = -1
 animationEndScriptArgs = []
 
+hook = 0
+hookX = 0
+hookY = 0
+hookSize = sprite_get_width(spr_hookChain)
+
 if (global.iLifted != noone)
 {
 	spriteIdle = spr_playerCarrying
