@@ -3,6 +3,7 @@
 function ScriptExecuteArray(_src, _args){
 	switch (array_length(_args))
 	{
+		case 0:		return script_execute(_src)
 		case 1:		return script_execute(_src, _args[0])
 		case 2:		return script_execute(_src, _args[0], _args[1])
 		case 3:		return script_execute(_src, _args[0], _args[1], _args[2])
