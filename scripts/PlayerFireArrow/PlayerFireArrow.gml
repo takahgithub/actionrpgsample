@@ -1,5 +1,5 @@
 function PlayerFireArrow(){
-	with (instance_create_depth(floor(x), floor(y) - 7, depth, obj_arrow))
+	with (instance_create_depth(floor(x), floor(y) - 12, depth, obj_arrow))
 	{
 		direction = other.direction
 		direction = CARDINAL_DIR * 90
