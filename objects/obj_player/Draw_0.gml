@@ -49,7 +49,7 @@ if ((state == PlayerStateHook) && (image_index == 3))
 function DrawHookChain()
 {
 	var _originX = floor(x)
-	var _originY = floor(y) - 7
+	var _originY = floor(y) - 12
 	
 	var _chains = hook div hookSize
 	var _hookDirX = sign(hookX)
