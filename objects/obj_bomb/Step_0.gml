@@ -10,6 +10,11 @@ if (!global.gamePaused)
 		bombStage++
 		bombTick = bombTickRate[bombStage]
 		bombImageSpeed = bombImageSpeeds[bombStage]
+		
+		if (bombStage >= 7)
+		{
+			sprite_index = spr_bombEnd
+		}
 	}
 	
 	// bombStageの最後の時

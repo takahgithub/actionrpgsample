@@ -2,7 +2,7 @@ if (!global.gamePaused)
 {
 	image_speed = 1.0
 	
-	if (image_index < 4)
+	if (image_index < 3)
 	{
 		var _entityList = ds_list_create()
 		var _entityCount = instance_place_list(x, y, obj_parentEntity, _entityList, false)
