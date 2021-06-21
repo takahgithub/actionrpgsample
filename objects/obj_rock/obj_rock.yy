@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_pot",
-    "path": "sprites/spr_pot/spr_pot.yy",
+    "name": "spr_rock",
+    "path": "sprites/spr_rock/spr_rock.yy",
   },
   "solid": false,
   "visible": true,
@@ -30,9 +30,9 @@
   "overriddenProperties": [
     {"propertyId":{"name":"ENTITY_ACTIVATE_SCRIPT","path":"objects/obj_parentEntity/obj_parentEntity.yy",},"objectId":{"name":"obj_parentEntity","path":"objects/obj_parentEntity/obj_parentEntity.yy",},"value":"ActivateLiftable","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"ENTITY_ACTIVATE_ARGS","path":"objects/obj_parentEntity/obj_parentEntity.yy",},"objectId":{"name":"obj_parentEntity","path":"objects/obj_parentEntity/obj_parentEntity.yy",},"value":"[id]","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"ENTITY_HIT_SCRIPT","path":"objects/obj_parentEntity/obj_parentEntity.yy",},"objectId":{"name":"obj_parentEntity","path":"objects/obj_parentEntity/obj_parentEntity.yy",},"value":"EntityHitDestroy","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"ENTITY_HIT_SCRIPT","path":"objects/obj_parentEntity/obj_parentEntity.yy",},"objectId":{"name":"obj_parentEntity","path":"objects/obj_parentEntity/obj_parentEntity.yy",},"value":"EntityHitSolid","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"ENTITY_THROW_BREAK","path":"objects/obj_parentEntity/obj_parentEntity.yy",},"objectId":{"name":"obj_parentEntity","path":"objects/obj_parentEntity/obj_parentEntity.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"ENTITY_FRAGMENT","path":"objects/obj_parentEntity/obj_parentEntity.yy",},"objectId":{"name":"obj_parentEntity","path":"objects/obj_parentEntity/obj_parentEntity.yy",},"value":"obj_fragPot","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"ENTITY_FRAGMENT","path":"objects/obj_parentEntity/obj_parentEntity.yy",},"objectId":{"name":"obj_parentEntity","path":"objects/obj_parentEntity/obj_parentEntity.yy",},"value":"obj_fragRock","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"ENTITY_FRAGMENT_COUNT","path":"objects/obj_parentEntity/obj_parentEntity.yy",},"objectId":{"name":"obj_parentEntity","path":"objects/obj_parentEntity/obj_parentEntity.yy",},"value":"3 + irandom(2)","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
@@ -40,7 +40,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_pot",
+  "name": "obj_rock",
   "tags": [],
   "resourceType": "GMObject",
 }
