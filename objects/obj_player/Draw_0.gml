@@ -54,11 +54,23 @@ function DrawHookChain()
 	var _chains = hook div hookSize
 	var _hookDirX = sign(hookX)
 	var _hookDirY = sign(hookY)
+	
+	var _cardinalDirection = CARDINAL_DIR
+	var _hookChainImageIndex = 0
+	if ((_cardinalDirection % 2) == 0)
+	{
+		_hookChainImageIndex = 1
+	}
+	else
+	{
+		_hookChainImageIndex = 0
+	}
+	
 	for (var i = 0; i < _chains; i++)
 	{
 		draw_sprite(
 			spr_hookChain,
-			0,
+			_hookChainImageIndex,
 			_originX + hookX - (i * hookSize * _hookDirX),
 			_originY + hookY - (i * hookSize * _hookDirY)
 			)
