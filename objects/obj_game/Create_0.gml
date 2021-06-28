@@ -8,7 +8,7 @@ global.targetDirection = 0
 global.iLifted = noone
 global.playerHealthMax = 5
 global.playerHealth = global.playerHealthMax
-global.playerMoney = 0
+global.playerMoney = 1000
 
 // Items
 global.playerHasAnyItems = false
@@ -19,12 +19,12 @@ global.playerAmmo[ITEM.BOMB] = 0
 global.playerAmmo[ITEM.BOW] = 0
 
 // Items test
-global.playerItemUnlocked[ITEM.BOMB] = true
-global.playerHasAnyItems = true
-global.playerAmmo[ITEM.BOMB] = 5
-global.playerItemUnlocked[ITEM.BOW] = true
-global.playerAmmo[ITEM.BOW] = 15
-global.playerItemUnlocked[ITEM.HOOK] = true
+//global.playerItemUnlocked[ITEM.BOMB] = true
+//global.playerHasAnyItems = true
+//global.playerAmmo[ITEM.BOMB] = 5
+//global.playerItemUnlocked[ITEM.BOW] = true
+//global.playerAmmo[ITEM.BOW] = 15
+//global.playerItemUnlocked[ITEM.HOOK] = true
 
 // Quest
 global.questStatus = ds_map_create()

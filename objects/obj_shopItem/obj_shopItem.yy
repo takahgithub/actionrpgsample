@@ -1,0 +1,47 @@
+{
+  "spriteId": {
+    "name": "spr_itemUI",
+    "path": "sprites/spr_itemUI/spr_itemUI.yy",
+  },
+  "solid": false,
+  "visible": true,
+  "spriteMaskId": null,
+  "persistent": false,
+  "parentObjectId": {
+    "name": "obj_parentEntity",
+    "path": "objects/obj_parentEntity/obj_parentEntity.yy",
+  },
+  "physicsObject": false,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsGroup": 1,
+  "physicsDensity": 0.5,
+  "physicsRestitution": 0.1,
+  "physicsLinearDamping": 0.1,
+  "physicsAngularDamping": 0.1,
+  "physicsFriction": 0.2,
+  "physicsStartAwake": true,
+  "physicsKinematic": false,
+  "physicsShapePoints": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
+  "properties": [
+    {"varType":0,"value":"ITEM.BOMB","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"ITEM_TYPE","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"ITEM_COST","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":0,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"ITEM_AMOUNT","tags":[],"resourceType":"GMObjectProperty",},
+  ],
+  "overriddenProperties": [
+    {"propertyId":{"name":"ENTITY_ACTIVATE_SCRIPT","path":"objects/obj_parentEntity/obj_parentEntity.yy",},"objectId":{"name":"obj_parentEntity","path":"objects/obj_parentEntity/obj_parentEntity.yy",},"value":"NewTextBox","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"ENTITY_ACTIVATE_ARGS","path":"objects/obj_parentEntity/obj_parentEntity.yy",},"objectId":{"name":"obj_parentEntity","path":"objects/obj_parentEntity/obj_parentEntity.yy",},"value":"[\"item description\", 0, [\"6:Purchase\", \"0:No Thanks\"]]","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"ENTITY_SHADOW","path":"objects/obj_parentEntity/obj_parentEntity.yy",},"objectId":{"name":"obj_parentEntity","path":"objects/obj_parentEntity/obj_parentEntity.yy",},"value":"False","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
+  "parent": {
+    "name": "Objects",
+    "path": "folders/Objects.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "obj_shopItem",
+  "tags": [],
+  "resourceType": "GMObject",
+}

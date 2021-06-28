@@ -20,6 +20,9 @@ function DialogueResponses(_responseNumber){
 		case 5:
 			NewTextBox(":(", 0)
 			break
+		case 6:
+			PurchaseItem(activate.ITEM_TYPE, activate.ITEM_AMOUNT, activate.ITEM_COST)
+			break
 		default:
 			break
 	}
