@@ -1,4 +1,7 @@
 randomize()
+
+global.gameSaveSlot = 0
+
 global.textSpeed = TEXT_SPEED
 global.gamePaused = false
 global.targetRoom = -1

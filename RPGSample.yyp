@@ -48,6 +48,7 @@
     {"id":{"name":"spr_batDie","path":"sprites/spr_batDie/spr_batDie.yy",},"order":45,},
     {"id":{"name":"sh_whiteFlash","path":"shaders/sh_whiteFlash/sh_whiteFlash.yy",},"order":0,},
     {"id":{"name":"EnemyTileCollision","path":"scripts/EnemyTileCollision/EnemyTileCollision.yy",},"order":26,},
+    {"id":{"name":"SaveGame","path":"scripts/SaveGame/SaveGame.yy",},"order":47,},
     {"id":{"name":"r_shop","path":"rooms/r_shop/r_shop.yy",},"order":5,},
     {"id":{"name":"spr_playerDead","path":"sprites/spr_playerDead/spr_playerDead.yy",},"order":25,},
     {"id":{"name":"obj_parentEntity","path":"objects/obj_parentEntity/obj_parentEntity.yy",},"order":4,},
